@@ -52,7 +52,7 @@ export default function SaveContactButton({
     <button
       type="button"
       onClick={saveContact}
-      className="inline-flex min-h-11 items-center justify-center gap-[9px] rounded-[10px] border border-[#DFE3E5] bg-white px-[17px] text-xs font-bold text-cardlink-navy transition hover:-translate-y-0.5 hover:bg-[#F7F8F8] max-sm:flex-1 max-sm:px-[10px] max-sm:text-[11px]"
+      className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-[10px] border border-[#DFE3E5] bg-white px-4 text-xs font-bold text-cardlink-navy transition hover:-translate-y-0.5 hover:bg-[#F7F8F8] min-[420px]:w-auto sm:gap-[9px] sm:px-[17px]"
     >
       <Download size={17} />
       Save contact
